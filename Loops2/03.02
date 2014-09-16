@@ -1,0 +1,9 @@
+using System;
+public class Program {
+    public static int Puzzle(int i) {
+int p =1;
+for(int j=1;j<=i;j++)
+{ p=p*j;}
+        return p;
+    }
+}
