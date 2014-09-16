@@ -1,0 +1,11 @@
+using System;
+public class Program {
+    public static int Puzzle(int number, int power) {    
+ int p=1;
+if (power ==0) return 1;
+else
+for(int i=1;i<=power;i++)
+{ p=p*number;}
+         return p;
+    }
+}
