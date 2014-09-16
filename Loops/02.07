@@ -1,0 +1,16 @@
+using System;
+public class Program {
+    public static int Puzzle(string s, char x) {
+int count = 0;
+char charToCount = x;
+foreach (char c in s)
+{
+    if( c == charToCount )
+    {
+        count++;
+    }
+}
+
+        return count;
+    }
+}
