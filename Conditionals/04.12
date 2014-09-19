@@ -1,0 +1,8 @@
+using System;
+public class Program {
+    public static int Puzzle(int i) {
+        if (i < 8) return 0;
+        if (i < 15) return 7;
+        return 21;
+    }
+}
