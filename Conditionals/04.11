@@ -1,0 +1,6 @@
+using System;
+public class Program {
+    public static string Puzzle(int i, int j, int k) {
+        return ( i / (double)j == j / (double)k && i != j)? "yes!":"no";
+    }
+}
