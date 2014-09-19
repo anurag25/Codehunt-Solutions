@@ -1,0 +1,6 @@
+using System;
+public class Program {
+    public static string Puzzle(int i) {         
+         return (i % 1111 == 0)? "fancy year":"not a fancy year";
+    }
+}
